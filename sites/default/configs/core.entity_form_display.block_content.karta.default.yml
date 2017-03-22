@@ -1,0 +1,30 @@
+uuid: 37bb7938-8655-46e1-b694-e7d646db6741
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.karta
+    - field.field.block_content.karta.body
+  module:
+    - text
+id: block_content.karta.default
+targetEntityType: block_content
+bundle: karta
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 3
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+    third_party_settings: {  }
+  info:
+    type: string_textfield
+    weight: -5
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

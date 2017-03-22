@@ -1,0 +1,25 @@
+uuid: c7507daa-dfde-47c2-b89e-e32b51288842
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:image2:1a786618-f793-42de-aecd-686f1363aa03'
+  module:
+    - block_content
+  theme:
+    - bartik
+id: myimage
+theme: bartik
+region: header
+weight: 0
+provider: null
+plugin: 'block_content:1a786618-f793-42de-aecd-686f1363aa03'
+settings:
+  id: 'block_content:1a786618-f793-42de-aecd-686f1363aa03'
+  label: 'My image'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

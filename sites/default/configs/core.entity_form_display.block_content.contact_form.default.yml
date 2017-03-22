@@ -1,0 +1,30 @@
+uuid: 28c12214-93fd-4590-8918-5a8b8c0a1f65
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.contact_form
+    - field.field.block_content.contact_form.body
+  module:
+    - text
+id: block_content.contact_form.default
+targetEntityType: block_content
+bundle: contact_form
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 3
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+    third_party_settings: {  }
+  info:
+    type: string_textfield
+    weight: -5
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

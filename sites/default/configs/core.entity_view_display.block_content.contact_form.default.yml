@@ -1,0 +1,21 @@
+uuid: 7f0c2ef3-de74-4007-97ad-9a84638186b8
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.contact_form
+    - field.field.block_content.contact_form.body
+  module:
+    - text
+id: block_content.contact_form.default
+targetEntityType: block_content
+bundle: contact_form
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }
