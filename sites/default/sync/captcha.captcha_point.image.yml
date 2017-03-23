@@ -1,0 +1,7 @@
+uuid: d1570b21-5457-472e-b170-c971a2975b24
+langcode: en
+status: true
+dependencies: {  }
+formId: image
+captchaType: image_captcha/Image
+label: image

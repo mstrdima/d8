@@ -1,0 +1,25 @@
+uuid: f1766de9-98f3-4f51-8a68-dadd86e740ef
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:block_with_pdf:022f0342-9053-4a35-b269-c6194d28bdab'
+  module:
+    - block_content
+  theme:
+    - bartik
+id: myfirstpdf
+theme: bartik
+region: sidebar_first
+weight: -7
+provider: null
+plugin: 'block_content:022f0342-9053-4a35-b269-c6194d28bdab'
+settings:
+  id: 'block_content:022f0342-9053-4a35-b269-c6194d28bdab'
+  label: 'my first PDF'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

@@ -1,0 +1,31 @@
+uuid: e9fd9bff-c586-49c0-9d45-2b625a30881a
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:karta:214ad60e-94cf-4240-adee-fe6917a3d3df'
+  module:
+    - block_content
+    - system
+  theme:
+    - bartik
+id: maps
+theme: bartik
+region: footer_first
+weight: 0
+provider: null
+plugin: 'block_content:214ad60e-94cf-4240-adee-fe6917a3d3df'
+settings:
+  id: 'block_content:214ad60e-94cf-4240-adee-fe6917a3d3df'
+  label: Maps
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /contact
+    negate: false
+    context_mapping: {  }

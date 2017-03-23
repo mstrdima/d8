@@ -1,0 +1,44 @@
+uuid: ac8f6b2e-4c48-4b79-9df5-49b119309794
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.galery.body
+    - field.field.node.galery.field_image
+    - field.field.node.galery.field_tar
+    - node.type.galery
+  module:
+    - comment
+    - image
+    - text
+    - user
+id: node.galery.default
+targetEntityType: node
+bundle: galery
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+  field_image:
+    weight: 102
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+  field_tar:
+    weight: 103
+    label: above
+    settings:
+      view_mode: default
+      pager_id: 0
+    third_party_settings: {  }
+    type: comment_default
+  links:
+    weight: 100
+hidden: {  }

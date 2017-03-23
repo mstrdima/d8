@@ -1,0 +1,22 @@
+uuid: aafcac07-bb58-4726-bbee-42623ac11edb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.galery
+  module:
+    - text
+id: node.galery.body
+field_name: body
+entity_type: node
+bundle: galery
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

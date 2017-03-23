@@ -1,0 +1,20 @@
+uuid: 0c64e295-0744-4c0c-8665-cbf9f15848fb
+langcode: en
+status: true
+dependencies:
+  module:
+    - comment
+    - node
+id: node.field_tar
+field_name: field_tar
+entity_type: node
+type: comment
+settings:
+  comment_type: ''
+module: comment
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

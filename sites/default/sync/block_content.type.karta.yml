@@ -1,0 +1,8 @@
+uuid: be90552c-6184-4b5a-a326-b21c8419c305
+langcode: en
+status: true
+dependencies: {  }
+id: karta
+label: Карта
+revision: 1
+description: 'google maps'

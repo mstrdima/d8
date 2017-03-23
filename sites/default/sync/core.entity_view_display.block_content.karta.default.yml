@@ -1,0 +1,21 @@
+uuid: 46edfa77-a816-46fb-84b2-23b146dcb67e
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.karta
+    - field.field.block_content.karta.body
+  module:
+    - text
+id: block_content.karta.default
+targetEntityType: block_content
+bundle: karta
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

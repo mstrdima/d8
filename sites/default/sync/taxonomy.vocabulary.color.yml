@@ -1,0 +1,9 @@
+uuid: e74799cd-15b5-4082-954a-e0ec3be73249
+langcode: en
+status: true
+dependencies: {  }
+name: Color
+vid: color
+description: ''
+hierarchy: 0
+weight: 0

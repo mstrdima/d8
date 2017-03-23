@@ -1,0 +1,21 @@
+uuid: e06889d2-49d3-4132-8ac3-efbfe8eed966
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_123
+    - node.type.block
+  module:
+    - options
+id: node.block.field_123
+field_name: field_123
+entity_type: node
+bundle: block
+label: '123'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_integer

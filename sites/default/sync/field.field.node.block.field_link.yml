@@ -1,0 +1,28 @@
+uuid: 1f6e6edd-4d59-4bea-94e6-ad6c6f27dace
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_link
+    - node.type.block
+  module:
+    - link
+id: node.block.field_link
+field_name: field_link
+entity_type: node
+bundle: block
+label: link
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    attributes: {  }
+    uri: 'https://githowto.com/uk/setup'
+    title: 'git info'
+    options: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

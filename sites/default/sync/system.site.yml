@@ -1,0 +1,14 @@
+uuid: f5fb7321-c8f4-403b-80cc-21420e42c85a
+name: d8
+mail: mstrdima7@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: AyT9s8OUcclfALRE_imByOMgtZ19eOlqdF6zI3p7yqo

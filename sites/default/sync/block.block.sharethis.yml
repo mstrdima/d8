@@ -1,0 +1,32 @@
+uuid: 33436736-b40f-4d75-832c-1a52218483f8
+langcode: en
+status: true
+dependencies:
+  module:
+    - ctools
+    - sharethis
+  theme:
+    - bartik
+id: sharethis
+theme: bartik
+region: header
+weight: -9
+provider: null
+plugin: sharethis_block
+settings:
+  id: sharethis_block
+  label: Sharethis
+  provider: sharethis
+  label_display: visible
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      article: article
+      block: block
+      galery: galery
+      news: news
+      page: page
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

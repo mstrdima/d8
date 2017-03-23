@@ -1,0 +1,8 @@
+uuid: 36484c55-1767-4b10-b92e-2b7d1b4ee71d
+langcode: en
+status: true
+dependencies: {  }
+id: contact_form
+label: 'Contact form'
+revision: 1
+description: 'my contact form'
